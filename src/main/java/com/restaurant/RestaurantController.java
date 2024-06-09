@@ -1,27 +1,29 @@
-package com.restaurant;
+// package com.restaurant;
+// import org.springframework.web.bind.annotation.RequestMapping;
+// import org.springframework.web.bind.annotation.RestController;
+// // import org.springframework.http.HttpStatus;
+// // import org.springframework.http.ResponseEntity;
+// import org.springframework.web.bind.annotation.GetMapping;
 
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.GetMapping;
 
-
-
-@RestController
-public class RestaurantController {
+// @RestController
+// @RequestMapping("/api")
+// public class RestaurantController {
     
-    @GetMapping("/admin")
-    public String contact() {
-        return "this is a admin page";
-    }
+//     @GetMapping("/admin")
+//     public String contact() {
+//         return "this is a admin page";
+//     }
 
-    @GetMapping("/homepage")
-    public String home() {
-        return "Welcome to homepage!";
-    }
+//     // @GetMapping("/homepage")
+//     // public ResponseEntity<String> home() {
+//     //     return new ResponseEntity<String>("This is homepage", HttpStatus.OK);
+//     // }
 
-    @GetMapping("/menu")
-    public String menu() {
-        return "this is a menu";
-    }
+//     @GetMapping("/menu")
+//     public String menu() {
+//         return "this is a menu";
+//     }
 
 
-}
+// }
